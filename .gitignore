@@ -1,0 +1,13 @@
+# Ignore dependency folders
+backend/node_modules/
+frontend/node_modules/
+
+# Ignore local environment variables (Crucial for security!)
+backend/.env
+
+# Ignore production builds (optional, but keeps repo clean since you can rebuild it)
+frontend/dist/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
